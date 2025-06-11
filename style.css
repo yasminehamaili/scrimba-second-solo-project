@@ -1,0 +1,80 @@
+@font-face {
+    font-family: coolvetica;
+    src: url(Coolvetica\ Rg.otf);
+}
+body{
+    margin:0;
+    padding: 0;
+    background-color: #1f2937;
+    min-height: 100vh;
+    width: 100%;
+}
+.principal{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: coolvetica;
+    letter-spacing: 2px;
+    gap: 5rem;
+
+}
+.title{
+    font-size: 200%;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-block: 0;
+}
+span{
+    color: #4adf86;
+
+}
+.main-phrase{
+    margin-block: 0;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 50%;
+}
+button{
+    background-color: #10b981;
+    color: #fff;
+    font-family: coolvetica;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 100%;
+}
+.btn {
+    align-items: end;
+
+}
+.passwords{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#password-one , #password-two{
+    height: 20px;
+    width: 150px;
+    background-color:#273549 ;
+    color: #53f48f;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: center;
+    flex: -1 1 50%;
+    border-radius: 5px;
+}
+#password-two{
+    margin-left: 50px;
+}
+@media all and (max-width: 500px) {
+    #password-one, #password-two {
+    flex: 1 1 100%;
+    }
+    #password-two{
+        margin-left: 0;
+    }}
